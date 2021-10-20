@@ -1,0 +1,11 @@
+-r requirements.in
+
+tox
+black
+bandit
+flake8
+pylint
+pytest
+pytest-cov
+sphinx
+sphinx-rtd-theme
